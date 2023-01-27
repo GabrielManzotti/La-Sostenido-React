@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/GabrielManzotti/La-Sostenido-React.git/static/css/main.43c4cf03.css",
+    "main.js": "/GabrielManzotti/La-Sostenido-React.git/static/js/main.846e92d5.js",
+    "static/media/Logotipo.png": "/GabrielManzotti/La-Sostenido-React.git/static/media/Logotipo.1d9f956b6307a0e65dca.png",
+    "index.html": "/GabrielManzotti/La-Sostenido-React.git/index.html",
+    "main.43c4cf03.css.map": "/GabrielManzotti/La-Sostenido-React.git/static/css/main.43c4cf03.css.map",
+    "main.846e92d5.js.map": "/GabrielManzotti/La-Sostenido-React.git/static/js/main.846e92d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43c4cf03.css",
+    "static/js/main.846e92d5.js"
+  ]
+}
