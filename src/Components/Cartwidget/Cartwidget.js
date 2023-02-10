@@ -1,5 +1,5 @@
 import React from 'react'
-import '../circleShoppCart/styles.css'
+import './styles.css'
 
 const Cartwidget = ({quantity}) => {
     return (
