@@ -1,22 +1,40 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Descriptions } from 'antd';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import "./styles.css"
+import { NavLink } from 'react-router-dom';
+import ProductQuantity from '../ProductQuantity/ProductQuantity';
+import GraduationDescription from '../graduationDescription/graduationDescription';
 
-function ProductDetailComponent({data})  {
+function ProductDetailComponent({ data }) {
 
   console.log("productDetailComponent", data)
 
   return (
-    <Descriptions title={"User Info"}>
-    <Descriptions.Item label="UserName">Zhou Maomao</Descriptions.Item>
-    <Descriptions.Item label="Telephone">1810000000</Descriptions.Item>
-    <Descriptions.Item label="Live">Hangzhou, Zhejiang</Descriptions.Item>
-    <Descriptions.Item label="Remark">empty</Descriptions.Item>
-    <Descriptions.Item label="Address">
-    {data.brand}
-    </Descriptions.Item>
-  </Descriptions>
-  
+    <div className='section-detail-component'>
+      <div >
+        <p className='titulo-brand'>{data.brand}</p>
+      </div>
+      <div className='precio-div'>
+        <p className='precio-p'>${data.price}.00</p>
+      </div>
+      <div className='description-div'>
+        <p className='description-p'>{data.description}</p>
+      </div>
+      <div className='button-cart'>
+        <NavLink>
+          <Stack spacing={2} direction="row">
+            <Button variant="contained">Agregar al carrito</Button>
+          </Stack>
+        </NavLink>
+      </div>
+      <div className='product-quantity'>
+        <ProductQuantity />
+      </div>
+    
+    </div>
+
   )
 }
 

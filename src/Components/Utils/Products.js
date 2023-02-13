@@ -34,6 +34,7 @@ export const mockedProducts = [
         price: 9000,
         stock: 12,
         image: "https://www.thecocktaildb.com/images/ingredients/Tequila.png",
+        largeDescription: "Sierra Tequila Silver es elaborado bajo los estrictos requerimientos del Gobierno Mexicano en Guadalajara, en la destilería Sierra Unidas de C. V. La destilería utiliza agave azul cultivado en campos naturales de las tierras altas como base para el tequila."
     },
     {
         id: '4',
@@ -65,7 +66,7 @@ export const mockedProducts = [
     {
         id: '7',
         brand: "The Berry Company",
-        description: "Juvo de cerezas",
+        description: "Jugo de cerezas",
         category: "Soft Drinks",
         price: 1200,
         stock: 300,

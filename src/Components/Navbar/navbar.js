@@ -22,10 +22,10 @@ const Navbar = ({ categoria1, categoria2, categoria3 }) => {
                   Categorías
                 </a>
                 <ul className="dropdown-menu">
-                  <NavLink to="/bebidas" className="dropdown-item">{categoria1} </NavLink>
                   <NavLink to="/" className="dropdown-item">HOME </NavLink>
+                  <NavLink to="/bebidas" className="dropdown-item">{categoria1} </NavLink>
 
-                  <li to="/bebidas" className="dropdown-item">{categoria1}</li>
+                  <li to="/bebidas" className="dropdown-item">{categoria2}</li>
                 </ul>
               </li>
             </ul>
