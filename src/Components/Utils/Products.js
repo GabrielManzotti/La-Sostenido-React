@@ -7,15 +7,17 @@ export const mockedProducts = [
         price: 5000,
         stock: 100,
         image: "https://www.thecocktaildb.com/images/ingredients/Light%20Rum.png",
+        largeDescription:"Un clásico ron blanco con notas distintivas de vainilla y almendra, elaborado en barriles de roble blanco y moldeado con una mezcla secreta de carbón vegetal para lograr una suavidad inconfundible."
     },
     {
         id: '1',
         brand: "Michters Bourbon",
-        description: "Bourbon Mitchers",
+        description: "  ",
         category: "Drinks",
         price: 9000,
         stock: 30,
         image: "https://www.thecocktaildb.com/images/ingredients/Bourbon.png",
+        largeDescription:"El whiskey de bourbon Michter’s US·1 ha sido envejecido en barriles nuevos de madera americana tostados durante un periodo de al menos 8 años. Pertenece a una edición de lotes realmente pequeños, cada lote se compone de no más de 24 barriles cada uno, no dejando margen para mezclas e imperfecciones. Es un whiskey maravillosamente matizado, suave que refleja fielmente el espíritu de Kentucky."
     },
     {
         id: '2',
@@ -25,6 +27,7 @@ export const mockedProducts = [
         price: 2000,
         stock: 200,
         image: "https://www.thecocktaildb.com/images/ingredients/Angostura%20Bitters.png",
+        largeDescription: "Los amargos aromáticos ANGOSTURA® agregan una capa de complejidad, intensifican el sabor de otros ingredientes, contrarrestan la dureza de los contenidos ácidos y disminuyen la dureza de los espíritus. Pero no se detiene ahí, también ayuda a limpiar el paladar y ayuda en la digestión."
     },
     {
         id: '3',
@@ -44,6 +47,7 @@ export const mockedProducts = [
         price: 11000,
         stock: 2,
         image: "https://www.thecocktaildb.com/images/ingredients/Gin.png",
+        largeDescription:"El paladar temprano es suavemente terroso y el suave pino reúne simultáneamente angélica, cardamomo, ralladura de limón, naranja dulce y enebro. Recibo indicios de productos botánicos que ni siquiera están aquí, como la nuez moscada. En boca es suave, graso y suavemente cálido. El final conduce a un suave cítrico y terroso."
     },
     {
         id: '5',
@@ -53,6 +57,7 @@ export const mockedProducts = [
         price: 3000,
         stock: 200,
         image: "https://www.thecocktaildb.com/images/ingredients/Vodka.png",
+        largeDescription:"El Vodka Smirnoff Red Label con su grado alcohólico de sólo 37.5% es uno de los vodkas más suaves. Smirnoff es un tipo de vodka de origen ruso. Elaborado en la destilería homónima, fundada por Piotr Arsenieyevich Smirnov en 1864, es el vodka premium de mayor venta en el mundo."
     },
     {
         id: '6',
@@ -62,6 +67,7 @@ export const mockedProducts = [
         price: 800,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Dr.%20Pepper.png",
+        largeDescription:"Dr Pepper es una bebida gaseosa carbonata perteneciente a la empresa británica Cadbury y comercializada por primera vez en 1885. Con un intenso sabor a caramelo, se diferencia de otras bebidas similares como la Coca Cola en que no es “cola”, sino soda."
     },
     {
         id: '7',
@@ -71,6 +77,7 @@ export const mockedProducts = [
         price: 1200,
         stock: 300,
         image: "https://www.thecocktaildb.com/images/ingredients/Cranberry%20Juice.png",
+        largeDescription: "La marca Berry Company contiene jugos de frutas 100% naturales hechos con los mejores ingredientes. Estos jugos bajos en calorías están hechos con un edulcorante natural a base de hierbas y tenemos disponibles en 330 ml y 1L Disfrute de estos fantásticos jugos naturales."
     },
     {
         id: '8',
@@ -80,6 +87,7 @@ export const mockedProducts = [
         price: 1800,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Dry%20Vermouth.png",
+        largeDescription:"El vermut seco es de origen francés y es el más amargo de los cuatro tipos de vermut (blanco, rojo, rosado y seco). Se elabora con vino blanco, azúcar y extracto de hierbas que se utilizan para infusionar."
     },
     {
         id: '9',
@@ -89,6 +97,7 @@ export const mockedProducts = [
         price: 800,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Amaretto.png",
+        largeDescription:"Es un licor de almendras maceradas en alcohol de vino. De gusto memorioso a la vez que astringente.El Amaretto di Saronno tiene la cualidad, debido a su sabor tan particular de poder tomarse solo o con hielo, luego de un postre.Dado que una de las características que tiene es de ser digestivo."
     },
     {
         id: '10',
@@ -98,6 +107,7 @@ export const mockedProducts = [
         price: 2800,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/151%20proof%20rum.png",
+        largeDescription:"Bacardi 151 es una marca discontinuada de ron de alto contenido alcohólico fabricado por Bacardi Limited de Hamilton, Bermudas. Recibe su nombre por su nivel de concentración de alcohol de 151 U.S. proof, es decir, 75,5 % de alcohol por volumen. Esto es mucho más alto que el ron típico, que tiene un promedio de alrededor de 35% a 40% de alcohol por volumen. Bacardí 151 se vendió en Estados Unidos y Canadá desde al menos 1963 hasta 2016, cuando se suspendió su producción"
     },
     {
         id: '11',
@@ -107,6 +117,7 @@ export const mockedProducts = [
         price: 8000,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Absolut%20citron.png",
+        largeDescription:"Absolut Vodka tiene un sabor rico, suave y dulce, con el carácter distintivo del grano de trigo. Absolut Vodka es ideal para beberse solo con hielo bien frío y no está nada mal como base para cientos de bebidas y cócteles."
     },
     {
         id: '12',
@@ -116,6 +127,7 @@ export const mockedProducts = [
         price: 180,
         stock: 100,
         image: "https://www.thecocktaildb.com/images/ingredients/lemon.png",
+        largeDescription:"Limón por kilo"
     },
     {
         id: '13',
@@ -125,6 +137,7 @@ export const mockedProducts = [
         price: 1000,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Water.png",
+        largeDescription:"Agua purificada"
     },
     {
         id: '14',
@@ -134,6 +147,7 @@ export const mockedProducts = [
         price: 8000,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Absolut%20citron.png",
+        largeDescription:"Absolut Vodka tiene un sabor rico, suave y dulce, con el carácter distintivo del grano de trigo. Absolut Vodka es ideal para beberse solo con hielo bien frío y no está nada mal como base para cientos de bebidas y cócteles."
     },
     {
         id: '15',
@@ -143,6 +157,7 @@ export const mockedProducts = [
         price: 300,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Orange%20Peel.png",
+        largeDescription:"Naranja por kilo"
     },
     {
         id: '16',
@@ -152,6 +167,7 @@ export const mockedProducts = [
         price: 1300,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Campari.png",
+        largeDescription:"Hercampuri es una hierba que tradicionalmente ha sido utilizada para regular el metabolismo (Bussmann R. y col., 2008). Los nombres comunes se presentan en orden alfabético. colagogo y digestivo, y para prevenir la formación de los cálculos biliares (en infusión)."
     },
     {
         id: '17',
@@ -161,6 +177,7 @@ export const mockedProducts = [
         price: 1300,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Soda%20Water.png",
+        largeDescription:"Soda premium Polar"
     },
     {
         id: '18',
@@ -170,6 +187,7 @@ export const mockedProducts = [
         price: 1300,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Prosecco.png",
+        largeDescription:"El Prosecco es un vino espumoso de la región del Veneto, en Italia. Su nombre es también el nombre de la variedad de uvas (también llamadas 'Glera') utilizadas para su elaboración. Para su elaboración, se utiliza un método asequible llamado “Método del tanque”."
     },
     {
         id: '19',
@@ -179,6 +197,7 @@ export const mockedProducts = [
         price: 2300,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Aperol.png",
+        largeDescription:"El Aperol es una bebida alcohólica de origen italiano de baja graduación alcohólica, sus ingredientes incluyen naranja amarga, ruibarbo, gentiana, cinchona, entre otros. Aunque sabe y huele muy similar al Campari, el Aperol tiene una graduación alcohólica de 11%"
     },
     {
         id: '20',
@@ -242,6 +261,7 @@ export const mockedProducts = [
         price: 100,
         stock: 500,
         image: "https://www.thecocktaildb.com/images/ingredients/Ice.png",
+        largeDescription:"Gracias a la ausencia de burbujas en su interior y su tamaño (unos 42 mm de lado) aguantan más tiempo sin descongelarse que los caseros. Es más, los hielos industriales se desmineralizan para quitarle dureza y hacerlos aptos para el consumo."
     },
     {
         id: '27',

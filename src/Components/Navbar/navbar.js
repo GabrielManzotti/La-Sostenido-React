@@ -1,4 +1,4 @@
-import Logotipo from '../Images/Logotipo.png'
+import Logotipo from '../../Images/Logotipo.png'
 import React from "react";
 import "../Navbar/styles.css"
 import Cartwidget from '../Cartwidget/Cartwidget';

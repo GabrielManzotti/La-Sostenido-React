@@ -1,11 +1,14 @@
-// import React from 'react'
-// import "./styles.css"
-// import Item from 'antd/es/list/Item'
+import React from 'react'
+import "./styles.css"
+import Item from 'antd/es/list/Item'
+import ItemListContainer from '../../ItemListContainer/ItemListContainer'
 
-// function Bebidas(products) {
-//   return (
-//     <Item></Item>
-//   )
-// }
+function Bebidas(products) {
+  return (
+    <div>
+        <ItemListContainer></ItemListContainer>
+    </div>
+  )
+}
 
-// export default Bebidas
+export default Bebidas

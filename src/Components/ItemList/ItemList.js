@@ -8,6 +8,10 @@ import ProductDetailComponent from '../ProductDetailComponent/ProductDetailCompo
 
 function ItemList({ children, products }) {
 
+  const result = products.filter(category => category.category === "Soft Drinks");
+
+  console.log("filtro", result)
+
 
   return (
     <div className='Cards-List'>
