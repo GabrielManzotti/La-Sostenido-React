@@ -32,9 +32,7 @@ function ProductDetailComponent({ data }) {
       <div className='product-quantity'>
         <ProductQuantity />
       </div>
-    
     </div>
-
   )
 }
 

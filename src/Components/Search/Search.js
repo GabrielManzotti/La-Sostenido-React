@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 function Search() {
   return (
     <div>
-    <Button
+      <Button
         variant="contained"
         onClick={() => alert("Hello World")}
         sx={{ mt: 4 }}
@@ -18,15 +18,13 @@ function Search() {
           placeholder="Buscar usuario"
           variant="outlined"
           className="Textfield"
-         
+
         />
         <button className="btn" type="submit">
           Buscar
         </button>
       </form>
-
- 
-      </div>
+    </div>
   )
 }
 

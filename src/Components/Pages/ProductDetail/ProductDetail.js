@@ -23,15 +23,9 @@ const ProductDetail = () => {
   useEffect(() => {
     fetchCopyDrinksDetail(mockedProducts).then((result) =>
       setProducts(result[id]));
-
-
   }, [id])
 
-
-
-
   return (
-
     <div className="section-detail">
       <div className='detail-content'>
         <div className='product-detail-card'>
@@ -40,19 +34,15 @@ const ProductDetail = () => {
         <div className='product-detail-component'>
           <ProductDetailComponent data={product} />
           <div className='product-charasterstics'>
-          <GraduationDescription data={product} />
+            <GraduationDescription data={product} />
+          </div>
         </div>
-        </div>
-       
-    
       </div>
       <div className='largeDescription-div'>
-          <LargeDescription data={product}/>
-        </div>
+        <LargeDescription data={product} />
+      </div>
     </div>
-
   )
-
 }
 
 export default ProductDetail

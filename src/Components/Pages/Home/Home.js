@@ -6,8 +6,7 @@ import Search from 'antd/es/transfer/search';
 function Home() {
   return (
     <div>
-    {/* <Search></Search> */}
-    <ItemListContainer></ItemListContainer>
+   <ItemListContainer></ItemListContainer>
     </div>
   )
 }
